@@ -1,107 +1,75 @@
 # Project Status
 
-**Last Updated**: 2026-03-06
+**Last Updated**: 2026-03-05
 **Updated By**: SCRUM_MASTER
-**Overall Status**: ✅ COMPLETE
+**Overall Status**: 🟡 AT RISK
 
 ---
 
 ## Project Overview
 
-**Project**: Personal CRM Lite
+**Project**: [TBD - requirements not yet defined]
 **Type**: Greenfield
-**Start Date**: 2026-03-06
-**Target Completion**: Flexible
-**Current Epic**: Epic 1: Project Foundation
+**Start Date**: 2026-03-05
+**Target Completion**: TBD
+**Current Epic**: Epic 0: Documentation & Planning
 
 ---
 
 ## Progress Summary
 
-**Overall Completion**: 100% (10/10 stories complete)
+**Overall Completion**: 0% (0/0 stories complete)
 
-| Epic | Status | Progress | Stories | Notes |
-|------|--------|----------|---------|-------|
-| Epic 1: Project Foundation | ✅ Complete | 100% | 4/4 | All stories done |
-| Epic 2: Contact Management | ✅ Complete | 100% | 5/5 | All stories done |
-| Epic 3: Search, Sort & Stale | ✅ Complete | 100% | 3/3 | All stories done |
+| Epic | Status | Progress | Start | End | Notes |
+|------|--------|----------|-------|-----|-------|
+| Epic 0: Documentation & Planning | 🟡 In Progress | 0% | 2026-03-05 | TBD | Missing all docs |
+| Epic 1: Implementation | ⏸️ Not Started | 0% | - | - | Blocked on planning |
+| Epic 2: Review | ⏸️ Not Started | 0% | - | - | - |
+| Epic 3: Release | ⏸️ Not Started | 0% | - | - | - |
 
 ---
 
 ## Current Epic Details
 
-### ALL EPICS COMPLETE
+### Epic 0: Documentation & Planning
 
-**Project Status**: DONE
-**Total Tests**: 90 (39 server + 51 client)
-**Coverage**: 95.72% client, 88.63% server
+**Current Story**: Run SPEC Method workflows
+**Owner**: SCRUM_MASTER / ANALYST_PM
+**Started**: 2026-03-05
+**Status**: 🟡 In Progress
 
-**Epic 1 Progress** (COMPLETE):
-- [x] Story 1.1: Backend Skeleton ✅
-- [x] Story 1.2: Frontend Skeleton ✅
-- [x] Story 1.3: Database Setup ✅
-- [x] Story 1.4: Connect Frontend to Backend ✅
+**Progress**:
+- [ ] Requirements: `docs/requirements.toon`
+- [ ] Architecture: `docs/architecture/`
+- [ ] UI/UX Spec: `docs/ui-ux/ui-ux-spec.toon`
+- [ ] Implementation Plan: `docs/plans/`
 
 ---
 
 ## Active Blockers
 
-None
+| ID | Severity | Description | Owner | Status | Opened |
+|----|----------|-------------|-------|--------|--------|
+| BLK-001 | 🟡 Medium | Requirements not defined | ANALYST_PM | Open | 2026-03-05 |
+| BLK-002 | 🟡 Medium | Architecture not defined | ARCHITECT | Open | 2026-03-05 |
+| BLK-003 | 🟡 Medium | Implementation plan not created | ANALYST_PM | Open | 2026-03-05 |
 
 ---
 
-## Completed Steps (Recent)
+## Completed Steps
 
-- [x] **Story 3.3**: Stale Contact Indicator - Completed 2026-03-06
-  - Evidence: 90/90 tests passing (39 server + 51 client), 95.72% client coverage
-  - Self-review: docs/stories-implemented/story-3.3-review.toon
-  - EPIC 3 COMPLETE - PROJECT COMPLETE
+(none yet)
 
-- [x] **Story 3.2**: Search Bar and Sort UI - Completed 2026-03-06
-  - Evidence: 83/83 tests passing (39 server + 44 client), 95.32% client coverage
-  - Self-review: docs/stories-implemented/story-3.2-review.toon
+---
 
-- [x] **Story 3.1**: Search and Sort API - Completed 2026-03-06
-  - Evidence: 74/74 tests passing (39 server + 35 client), 88.63% server coverage
-  - Self-review: docs/stories-implemented/story-3.1-review.toon
+## Upcoming Stories
 
-- [x] **Story 2.5**: Wire Up CRUD in App - Completed 2026-03-06
-  - Evidence: 64/64 tests passing (29 server + 35 client), 95.29% client coverage
-  - Self-review: docs/stories-implemented/story-2.5-review.toon
-  - EPIC 2 COMPLETE
-
-- [x] **Story 2.4**: Contact Form Component - Completed 2026-03-06
-  - Evidence: 58/58 tests passing (29 server + 29 client), 98.14% client coverage
-  - Self-review: docs/stories-implemented/story-2.4-review.toon
-
-- [x] **Story 2.3**: Contact Table Component - Completed 2026-03-06
-  - Evidence: 52/52 tests passing (29 server + 23 client), 100% client coverage
-  - Self-review: docs/stories-implemented/story-2.3-review.toon
-
-- [x] **Story 2.2**: API Service Client - Completed 2026-03-06
-  - Evidence: 46/46 tests passing (29 server + 17 client), 100% client coverage
-  - Self-review: docs/stories-implemented/story-2.2-review.toon
-
-- [x] **Story 2.1**: Contact CRUD API - Completed 2026-03-06
-  - Evidence: 37/37 tests passing (29 server + 8 client), server coverage 84.41%
-  - Self-review: docs/stories-implemented/story-2.1-review.toon
-
-- [x] **Story 1.4**: Connect FE to BE - Completed 2026-03-06
-  - Evidence: 21/21 tests passing (13 server + 8 client), 100% client coverage
-  - Self-review: docs/stories-implemented/story-1.4-review.toon
-  - EPIC 1 COMPLETE
-
-- [x] **Story 1.3**: Database Setup - Completed 2026-03-06
-  - Evidence: 13/13 tests passing (total), coverage 93.33%
-  - Self-review: docs/stories-implemented/story-1.3-review.toon
-
-- [x] **Story 1.2**: Frontend Skeleton - Completed 2026-03-06
-  - Evidence: 2/2 tests passing, coverage 100%
-  - Self-review: docs/stories-implemented/story-1.2-review.toon
-
-- [x] **Story 1.1**: Backend Skeleton - Completed 2026-03-06
-  - Evidence: 5/5 tests passing, coverage 93.75%
-  - Self-review: docs/stories-implemented/story-1.1-review.toon
+**Recommended Next Steps**:
+1. Run `greenfield-requirements` to define project requirements
+2. Run `greenfield-architecture` to design system architecture
+3. Run `greenfield-patterns` to establish coding standards
+4. Run `ui-ux-design` if project has UI components
+5. Run `greenfield-plan` to create implementation plan
 
 ---
 
@@ -109,10 +77,10 @@ None
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Unit Test Coverage | >= 85% | 93.75% | ✅ |
-| All CRUD Working | 100% pass | - | ⏸️ |
-| No Critical Bugs | 0 | 0 | ✅ |
-| API Response Time | < 500ms | - | ⏸️ |
+| Unit Test Coverage | >=85% | N/A | ⏸️ |
+| Integration Tests | 100% pass | N/A | ⏸️ |
+| Code Review | All stories | N/A | ⏸️ |
+| Documentation | All stories | N/A | ⏸️ |
 
 ---
 
@@ -120,8 +88,7 @@ None
 
 | ID | Type | Description | Impact | Mitigation | Owner |
 |----|------|-------------|--------|------------|-------|
-| RSK-001 | Technical | better-sqlite3 native build issues | Medium | Use prebuilt binaries, document Node version | DEV |
-| RSK-002 | Process | Scope creep beyond PoC | High | Strict OUT of scope per story | SCRUM_MASTER |
+| RSK-001 | Process | All planning docs missing | High | Run SPEC workflows in order | SCRUM_MASTER |
 
 ---
 
@@ -129,20 +96,25 @@ None
 
 | Agent | Current Task | Status | Last Active |
 |-------|--------------|--------|-------------|
-| ANALYST_PM | - | Idle | 2026-03-06 |
-| ARCHITECT | - | Idle | 2026-03-06 |
-| DEV | - | Complete | 2026-03-06 |
+| ANALYST_PM | Requirements definition | Standby | - |
+| ARCHITECT | Architecture design | Standby | - |
+| DEV | - | Idle | - |
+| UNIT_TEST | - | Idle | - |
+| REVIEWER | - | Idle | - |
 
 ---
 
 ## Communication Log
 
-### 2026-03-06
-- Requirements approved
-- Architecture approved
-- Patterns approved
-- Implementation plan approved (10 stories, 3 epics)
-- Project kicked off
-- First story: 1.1 Backend Skeleton assigned to DEV
-- Story 1.1 completed: 5/5 tests, 93.75% coverage
-- Story 1.2 Frontend Skeleton ready to start
+### 2026-03-05
+- Project kickoff initialized (local tracking)
+- Identified missing planning documentation
+- Recommended running SPEC Method workflows in sequence
+
+---
+
+## Next Review
+
+**Type**: Post-Requirements Review
+**Trigger**: After `greenfield-requirements` completes
+**Agenda**: Verify requirements doc, plan architecture phase
