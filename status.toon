@@ -77,10 +77,10 @@
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Unit Test Coverage | >=85% | N/A | ⏸️ |
-| Integration Tests | 100% pass | N/A | ⏸️ |
-| Code Review | All stories | N/A | ⏸️ |
-| Documentation | All stories | N/A | ⏸️ |
+| Unit Test Coverage | >=85% | N/A | ⏸️ Not Started |
+| Integration Tests | 100% pass | N/A | ⏸️ Not Started |
+| Code Review | All stories | N/A | ⏸️ Not Started |
+| Documentation | All stories | N/A | ⏸️ Not Started |
 
 ---
 
