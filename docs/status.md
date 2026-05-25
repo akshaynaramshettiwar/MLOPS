@@ -73,6 +73,8 @@ _Stories `X/N` column is advisory after parallel merges; compute from Story Trac
 | CYCLE-1 | 1.3 | TaskService.create | 2026-05-21 | 2026-05-21 | 2026-05-21 18:25 |
 | CYCLE-1 | 1.4 | Routes — GET + POST /api/tasks | 2026-05-21 | 2026-05-21 | 2026-05-21 18:50 |
 | CYCLE-1 | 1.5 | Static UI shell — add + list | 2026-05-21 | 2026-05-21 | 2026-05-21 18:50 |
+| CYCLE-1 | 1.6 | Persistence smoke + README | 2026-05-21 |  | 2026-05-21 19:15 |
+| CYCLE-1 | 1.5 | Static UI shell — add + list | 2026-05-21 | | 2026-05-21 18:50 |
 | CYCLE-1 | 1.6 | Persistence smoke + README | 2026-05-21 | 2026-05-21 | 2026-05-21 19:15 |
 
 ---
