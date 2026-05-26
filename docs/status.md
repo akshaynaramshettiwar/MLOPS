@@ -59,7 +59,7 @@
 | Cycle | BUILDID | Scope | Stories | Status | Start | End | Recorded |
 |-------|---------|-------|---------|--------|-------|-----|----------|
 | Cycle 1 | CYCLE-1 | Bootstrap + DB + `TaskRepository.create/list` + `TaskService.create` + `GET`/`POST /api/tasks` + static UI shell (add + list) | 6/6 | ✅ Complete | 2026-05-21 | 2026-05-21 | 2026-05-21 19:15 |
-| Cycle 2 | CYCLE-2 | `TaskRepository.update/delete` + `TaskService.update/delete` + `PUT`/`DELETE /api/tasks/:id` + edit/delete UI + ≥85% coverage + lint/format gates + README | 0/0 | ⏸️ Not Started | — | — | 2026-05-21 17:30 |
+| Cycle 2 | CYCLE-2 | `TaskRepository.update/delete` + `TaskService.update/delete` + `PUT`/`DELETE /api/tasks/:id` + edit/delete UI + ≥85% coverage + lint/format gates + README | 0/2 | ⏸️ Not Started | — | — | 2026-05-21 17:30 |
 
 _Stories `X/N` column is advisory after parallel merges; compute from Story Tracker._
 
@@ -81,6 +81,8 @@ _Stories `X/N` column is advisory after parallel merges; compute from Story Trac
 | CYCLE-1 | 1.6 | Persistence smoke + README | 2026-05-21 |  | 2026-05-21 19:15 |
 | CYCLE-1 | 1.5 | Static UI shell — add + list | 2026-05-21 | | 2026-05-21 18:50 |
 | CYCLE-1 | 1.6 | Persistence smoke + README | 2026-05-21 | 2026-05-21 | 2026-05-21 19:15 |
+| CYCLE-2 | 2.1 | Static UI shell — add + list | 2026-05-21 | | 2026-05-21 18:50 |
+| CYCLE-2 | 2.2 | Persistence smoke + README | 2026-05-21 | | 2026-05-21 19:15 |
 
 ---
 
