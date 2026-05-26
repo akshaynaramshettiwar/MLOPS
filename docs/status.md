@@ -4,6 +4,7 @@
 **Updated By**: REVIEWER
 **Updated By** DEV
 **Overall Status**: 🟢 ON TRACK
+**Overall Status**: 🟢 In Progress
 
 ---
 
@@ -68,6 +69,10 @@ _Stories `X/N` column is advisory after parallel merges; compute from Story Trac
 
 | BUILDID | Story | Title | Start | End | Recorded |
 |---------|-------|-------|-------|-----|----------|
+| CYCLE-1 | 1.1 | Root tooling seed (scaffold + bootstrap + healthz) | 2026-05-21 | | 2026-05-21 18:10 |
+| CYCLE-1 | 1.2 | TaskRepository — create + list | 2026-05-21 |  | 2026-05-21 18:20 |
+| CYCLE-1 | 1.3 | TaskService.create | 2026-05-21 |  | 2026-05-21 18:25 |
+| CYCLE-1 | 1.4 | Routes — GET + POST /api/tasks | 2026-05-21 |  | 2026-05-21 18:50 |
 | CYCLE-1 | 1.1 | Root tooling seed (scaffold + bootstrap + healthz) | 2026-05-21 | 2026-05-21 | 2026-05-21 18:10 |
 | CYCLE-1 | 1.2 | TaskRepository — create + list | 2026-05-21 | 2026-05-21 | 2026-05-21 18:20 |
 | CYCLE-1 | 1.3 | TaskService.create | 2026-05-21 | 2026-05-21 | 2026-05-21 18:25 |
