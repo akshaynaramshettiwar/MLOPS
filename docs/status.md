@@ -75,7 +75,7 @@ license: "Client Work Product - Subject to MSA"
 
 | Cycle   | BUILDID | Scope                                                           | Stories | Status         | Start      | End        |
 | ------- | ------- | --------------------------------------------------------------- | ------- | -------------- | ---------- | ---------- |
-| Cycle 0 | CYCLE-0 | Walking Skeleton (Flows 0–4 vertical slice)                     | 27/27   | ✅ Done        | 2026-03-22 | 2026-05-04 |
+| Cycle 0 | CYCLE-0 | Walking Skeleton (Flows 0–4 vertical slice)                     | 27/27   | ✅ Done        | 2026-03-22 | 2026-07-04 |
 | Cycle 1 | CYCLE-1 | Flow 1A — HQ Engineer Firmware Intake + i18n                    | 37/38   | ✅ Done        | 2026-03-05 | 2026-05-22 |
 | Cycle 2 | CYCLE-2 | Flow 1B — Security Reviewer Quality Gate + Audit Export         | 41/41   | ✅ Done        | 2026-05-18 | 2026-05-25 |
 | Cycle 3 | CYCLE-3 | TBD — carry-forward of BC-2 deferrals + rework team integration | 0/0     | ⏸️ Not Started | —          | —          |
