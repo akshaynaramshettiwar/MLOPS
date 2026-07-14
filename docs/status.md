@@ -77,7 +77,7 @@ license: "Client Work Product - Subject to MSA"
 | ------- | ------- | --------------------------------------------------------------- | ------- | -------------- | ---------- | ---------- |
 | Cycle 0 | CYCLE-0 | Walking Skeleton (Flows 0–4 vertical slice)                     | 27/27   | ✅ Done        | 2026-03-22 | 2026-05-04 |
 | Cycle 1 | CYCLE-1 | Flow 1A — HQ Engineer Firmware Intake + i18n                    | 37/38   | ✅ Done        | 2026-03-05 | 2026-05-22 |
-| Cycle 2 | CYCLE-2 | Flow 1B — Security Reviewer Quality Gate + Audit Export         | 22/41   | 🟡 In Progress | 2026-05-18 | —          |
+| Cycle 2 | CYCLE-2 | Flow 1B — Security Reviewer Quality Gate + Audit Export         | 41/41   | ✅ Done        | 2026-05-18 | 2026-05-25 |
 | Cycle 3 | CYCLE-3 | TBD — carry-forward of BC-2 deferrals + rework team integration | 0/0     | ⏸️ Not Started | —          | —          |
 
 > Cycle 1 deferred Story 6.4 (Cycle-Final Playwright E2E) to a dedicated Tester role per the "no test data in production" decision (2026-05-08). Cycle 2 deferred Stories 1.10, 2.2, 3.4, 3.7 to BC-3 per PR #480 / PR #424 (PDM UX scope correction).
